@@ -1,0 +1,70 @@
+.main {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid rgba(255, 145, 0, 0.303);
+    border-radius: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Courier, monospace;
+}
+
+.form {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Courier, monospace;
+    display: flex;
+    text-align: center;
+
+}
+
+input::placeholder {
+    color: rgb(144, 144, 145);
+    font-style: italic;
+}
+
+.sign_up {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.your-text {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Courier, monospace;
+}
+
+.press-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Courier, monospace;
+}
+
+.press-button:hover {
+    cursor: pointer;
+}
